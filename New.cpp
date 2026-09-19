@@ -1,11 +1,15 @@
-#include <iostream>
+#include <bits/stdc++.h>
 #include <vector>
 
 using namespace std;
 
-int main(){
-    int x,y;
-    cin >> x >> y;
-    cout << "The value of x is: " << x << endl << "The value of y is: " << y << endl;
-    return 0;
+int x, y, z; // global variables
+int sum(int a, int b) {
+return (a + b);
+} 
+int main(void) {
+x = 2;
+y = 3;
+z = sum(x, y);
+return z;
 }
